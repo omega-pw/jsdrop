@@ -1,0 +1,22 @@
+{
+  "name": "jsdrop",
+  "version": "0.1.0",
+  "description": "Support executing specified operations when variables are recycled",
+  "author": "omega",
+  "files": [
+    "dist",
+    "pkg",
+    "src"
+  ],
+  "main": "index.js",
+  "unpkg": "dist/index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "1.7.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
